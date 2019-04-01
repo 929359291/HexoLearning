@@ -46,12 +46,7 @@
             <version>2.1.1</version>
         </dependency>
         <!--数据库操作-->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.4</version>
-        </dependency>
-        <dependency>
+		<dependency>
             <groupId>com.pig4cloud</groupId>
             <artifactId>pigx-common-data</artifactId>
             <version>2.1.1</version>
@@ -97,12 +92,7 @@
             <version>${mybatis-plus.version}</version>
         </dependency>
         <!--数据库-->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.4</version>
-        </dependency>
-        <!--web 模块-->
+		<!--web 模块-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -126,6 +116,12 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4.0-atlassian-hosted</version>
+		</dependency>
 
     </dependencies>
 
