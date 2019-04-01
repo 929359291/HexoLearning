@@ -27,7 +27,6 @@ import org.apache.ibatis.annotations.Mapper;
  * @author pigx code generator
  * @date 2018-08-16 21:30:41
  */
-@Mapper
 public interface SysSocialDetailsMapper extends BaseMapper<SysSocialDetails> {
 
 }

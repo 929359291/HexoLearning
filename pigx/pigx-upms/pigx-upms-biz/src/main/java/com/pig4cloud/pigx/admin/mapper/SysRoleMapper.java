@@ -21,6 +21,7 @@ package com.pig4cloud.pigx.admin.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.pig4cloud.pigx.admin.api.entity.SysRole;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 

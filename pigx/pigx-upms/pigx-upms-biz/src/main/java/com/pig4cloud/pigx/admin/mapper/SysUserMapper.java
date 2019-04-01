@@ -26,6 +26,7 @@ import com.pig4cloud.pigx.admin.api.dto.UserDTO;
 import com.pig4cloud.pigx.admin.api.entity.SysUser;
 import com.pig4cloud.pigx.admin.api.vo.UserVO;
 import com.pig4cloud.pigx.common.data.datascope.DataScope;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
