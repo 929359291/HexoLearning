@@ -20,7 +20,11 @@ spring:
     check-process-definitions: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-    username: scott
-    password: tiger
-    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    username: scott
+#    password: tiger
+#    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/pigxx_ac?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
